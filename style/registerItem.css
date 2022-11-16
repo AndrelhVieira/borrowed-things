@@ -1,0 +1,46 @@
+body {
+  background-color: var(--primary);
+}
+
+section#content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 45px;
+}
+
+div#content-box {
+  width: 65%;
+  padding: 28px 120px;
+  margin-top: 45px;
+  background-color: var(--secondary);
+  border-radius: var(--radius-default);
+}
+
+h1 {
+  font-size: var(--medium);
+  font-weight: 400;
+}
+
+p {
+  font-size: var(--small);
+  text-align: center;
+  margin: 20px 0 36px;
+  font-weight: 400;
+}
+
+label {
+  font-size: var(--small);
+  font-weight: 400;
+  margin-bottom: 12px;
+}
+
+.button-form {
+  margin: 20px auto 0;
+  padding: 20px 28px;
+  background-color: var(--terciary);
+
+  width: fit-content;
+  font-size: var(--small);
+}
